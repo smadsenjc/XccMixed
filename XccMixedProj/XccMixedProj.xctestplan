@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "013FB485-F144-4B6F-9F01-15E425A27BE9",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : false,
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:XccMixedProj.xcodeproj",
+      "identifier" : "789312EB29AD50A400882461",
+      "name" : "XccMixedProj"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:XccMixedProj.xcodeproj",
+        "identifier" : "789312FC29AD50A500882461",
+        "name" : "XccMixedProjTests"
+      }
+    },
+    {
+      "target" : {
+        "containerPath" : "container:..",
+        "identifier" : "XccMixedTests",
+        "name" : "XccMixedTests"
+      }
+    }
+  ],
+  "version" : 1
+}
