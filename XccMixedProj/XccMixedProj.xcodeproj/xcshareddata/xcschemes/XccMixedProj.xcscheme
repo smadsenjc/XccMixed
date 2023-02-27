@@ -29,7 +29,7 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <TestPlans>
          <TestPlanReference
-            reference = "container:XccMixedProj/XccMixedProj.xctestplan"
+            reference = "container:XccMixedProj.xctestplan"
             default = "YES">
          </TestPlanReference>
       </TestPlans>
